@@ -1,0 +1,92 @@
+
+.home{
+background-image: url(../img/Home.jpg);
+background-size:cover ;
+background-position: center center;
+height: 100vh;
+width:100%;
+}
+.home1{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+   h2::after {
+        content: "|";
+        animation-name: type;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes type {
+        0%{content: "|";}
+        5%{content: "B|";}
+        10%{content: "Bu|";}
+        20%{content: "Bur|";}
+        30%{content: "Burg|";}
+        40%{content: "Burge|";}
+        50%{content: "Burger|";}
+        60%{content: "Burge|";}
+        70%{content: "Burg|";}
+        80%{content: "Bur|";}
+        90%{content: "Bu|";}
+        95%{content: "B|";}
+        100%{content: "|";}
+    }
+
+  .btn {
+    display: inline-block; 
+    background-color: #f4f4f4; 
+    color: #333; 
+    padding: 10px 20px; 
+    text-decoration: none; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    margin: 0 10px; 
+    transition: background-color 0.3s, color 0.3s; 
+  }
+  
+  .btn:hover {
+    background-color: #333; 
+    color: #fff; 
+  }
+.btn2:hover{
+color: black;
+}
+.btn3 {
+  display: inline-block; 
+  background-color: black; 
+  color: #ffffff; 
+  padding: 5px 5px; 
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+  font-size: 15px; 
+  margin: 4px 10px; 
+  transition: background-color 0.3s, color 0.3s;
+  
+}
+
+.btn3:hover {
+  background-color: black; 
+  color: burlywood;
+
+}
+
+
+.spacer{
+    
+    height: 40px;
+    width: 200px;
+}
+ 
+.menutab{ 
+    margin-top: 100px;
+
+}
+.form{
+    border:1px solid #333;
+  margin-top: 100px;
+}
